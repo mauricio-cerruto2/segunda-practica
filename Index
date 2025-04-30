@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo2.css">
+    <body>
+        <header>
+            <h1>Warcraft 3: Reforged</h1>
+            <p>El portal definitivo para fans del clásico de Blizzard</p>
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Guias</a></li>
+                <li><a href="#">Foros</a></li>
+                <li><a href="#">Descargas</a></li>
+                <li><a href="#">Comunidad</a></li>
+            </ul>
+        </nav>
+    
+        <main>
+            <h2>Contenido principal</h2>
+            
+            <div class="content-table">
+                <div class="table-header">
+                    <span>Sección</span>
+                    <span>Detalles</span>
+                </div>
+                <div class="table-row">
+                    <span><strong>Article 1:</strong> Actualización 1.35</span>
+                    <span>Blizzard ha lanzado la nueva actualización con balanceo de unidades y corrección de bugs</span>
+                </div>
+                <div class="table-row">
+                    <span><strong>Article 2:</strong> Torneo internacional</span>
+                    <span>Se anuncia el Warcraft 3 Champions League con premio de $50,000</span>
+                </div>
+            </div>
+    
+            <hr>
+    
+            <section class="scooter-section">
+                <h3>Scooter: El héroe no oficial</h3>
+                <div class="scooter-content">
+                    <img src="illidan.png" alt="Scooter en Warcraft 3">
+                    <div class="scooter-text">
+                        <p>Scooter se ha convertido en un personaje legendario dentro de la comunidad de Warcraft 3, apareciendo en numerosos mapas personalizados como héroe secreto.</p>
+                        <p>Originario de los mapas "Uther Party", Scooter posee habilidades únicas que lo hacen favorito entre los jugadores casuales.</p>
+                        <ul>
+                            <li><strong>Habilidad 1:</strong> Patineta infernal - Causa daño en área</li>
+                            <li><strong>Habilidad 2:</strong> Truco imposible - Aturde a los enemigos</li>
+                            <li><strong>Habilidad 3:</strong> Velocidad extrema - Aumenta movimiento y ataque</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="additional-content">
+                <h4>Últimas noticias de la comunidad</h4>
+                <div class="news-grid">
+                    <article>
+                        <h5>Nuevo mapa personalizado: Defense of the Ancients 2.0</h5>
+                        <p>La comunidad ha actualizado el clásico DotA con nuevos héroes y objetos.</p>
+                    </article>
+                    <article>
+                        <h5>Modo campaña cooperativo</h5>
+                        <p>Los jugadores ahora pueden disfrutar la campaña original en modo cooperativo para 2 jugadores.</p>
+                    </article>
+                    <article>
+                        <h5>Concurso de modelado 3D</h5>
+                        <p>Participa en el concurso anual de creación de modelos para Warcraft 3.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            <p>Portal de noticias de Warcraft 3 © 2023 - Todos los derechos reservados</p>
+            <p>Gracias por visitarnos</p>
+        </footer>
+    </body>
+    </html>
