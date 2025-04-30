@@ -1,0 +1,237 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    line-height: 1.6;
+    background-image: url('https://via.placeholder.com/1920x1080/0a0a1a/0a3d6b?text=Warcraft+Background');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Encabezado */
+header {
+    background-color: rgba(10, 61, 107, 0.9);
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 3px solid #f0c808;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+    margin: 0;
+    color: #f0c808;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-style: italic;
+    color: #b8b8b8;
+}
+
+/* Navegación */
+nav {
+    background-color: rgba(20, 33, 61, 0.95);
+    padding: 15px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #f0c808;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #f0c808;
+    color: #0a3d6b;
+}
+
+/* Contenido principal */
+main {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: rgba(30, 30, 30, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+main h2 {
+    color: #f0c808;
+    border-bottom: 2px solid #f0c808;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+main h3, main h4, main h5 {
+    color: #f0c808;
+}
+
+main h3 {
+    font-size: 1.8em;
+    margin-top: 40px;
+}
+
+main h4 {
+    font-size: 1.5em;
+    margin-top: 50px;
+    border-left: 4px solid #f0c808;
+    padding-left: 15px;
+}
+
+/* Tabla de contenido */
+.content-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background-color: rgba(45, 45, 45, 0.7);
+    border: 1px solid #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.table-header, .table-row {
+    display: table-row;
+}
+
+.table-header span, .table-row span {
+    display: table-cell;
+    padding: 15px 20px;
+    border: 1px solid #555;
+    vertical-align: middle;
+}
+
+.table-header span {
+    background-color: rgba(10, 61, 107, 0.8);
+    color: #f0c808;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.table-row:nth-child(even) {
+    background-color: rgba(58, 58, 58, 0.5);
+}
+
+.table-row:hover {
+    background-color: rgba(70, 70, 70, 0.7);
+}
+
+/* Sección Scooter */
+.scooter-section {
+    margin-top: 40px;
+}
+
+.scooter-content {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.scooter-content img {
+    border: 3px solid #f0c808;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.scooter-content img:hover {
+    transform: scale(1.03);
+}
+
+.scooter-text {
+    flex: 1;
+}
+
+.scooter-text ul {
+    padding-left: 20px;
+}
+
+.scooter-text li {
+    margin-bottom: 8px;
+}
+
+/* Noticias adicionales */
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.news-grid article {
+    background-color: rgba(45, 45, 45, 0.7);
+    padding: 20px;
+    border-radius: 6px;
+    border-left: 4px solid #f0c808;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-grid article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.news-grid h5 {
+    margin-top: 0;
+    color: #f0c808;
+    font-size: 1.2em;
+}
+
+/* Línea divisoria */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(240, 200, 8, 0), rgba(240, 200, 8, 0.75), rgba(240, 200, 8, 0));
+    margin: 40px 0;
+}
+
+/* Pie de página */
+footer {
+    background-color: rgba(10, 61, 107, 0.9);
+    color: #e0e0e0;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    border-top: 3px solid #f0c808;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .scooter-content {
+        flex-direction: column;
+    }
+    
+    .scooter-content img {
+        width: 100%;
+        height: auto;
+    }
+}
